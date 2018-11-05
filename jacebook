@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Jacebok</title>
+    <link rel="stylesheet" href="jacebook.css">
+    <link href="https://file.myfontastic.com/R3M8erAKCpy5qCietfhPxV/icons.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="contenedor">
+            <span class="estilos" [href]="styles.css"></span>
+            <nav class="nav">
+                <ul class="ul">
+                    <li class="icon-fb"><input type="search" name="Buscador" id="search" placeholder="Buscar" size="60px"></li>
+                    </li>
+                    <li class="user">
+                        <a href="">Usuario</a>
+                    </li>
+                    <li class="home">
+                        <a href="">Inicio</a>
+                    </li>
+                    <li class="find">
+                        <a href="">Encontrar</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="banner">
+        <img src="social.png" alt="" class="banner-img">
+    </div>
+</body>
+
+</html>
